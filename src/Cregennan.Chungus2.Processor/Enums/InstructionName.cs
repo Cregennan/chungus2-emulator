@@ -1,0 +1,37 @@
+namespace Cregennan.Chungus2.Processor.Enums;
+
+public enum InstructionName
+{
+    NOP = 0,
+    HLT = 1,
+    STS = 2,
+    CLI = 3,
+    JMP = 4,
+    CAL = 5,
+    RET = 6,
+    BRH = 7,
+    POI = 8,
+    SLD = 9,
+    PST = 10,
+    PLD = 11,
+    PSH = 12,
+    POP = 13,
+    MST = 14,
+    MLD = 15,
+    LIM = 16,
+    AIM = 17,
+    CMP = 18,
+    CMA = 19,
+    MOV = 20,
+    ADD = 21,
+    SUB = 22,
+    ADI = 23,
+    BIT = 24,
+    BNT = 25,
+    SHF = 26,
+    SFI = 27,
+    MUL = 28,
+    RESERVED1 = 29,
+    RESERVED2 = 30,
+    BCT = 31
+}
